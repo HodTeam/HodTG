@@ -56,7 +56,7 @@ Create a realm using the `!createrealm` command.
 killall screen
 killall tmux
 killall telegram-cli
-tmux new-session -s script "bash beyond.sh -t"
+tmux new-session -s script "bash Hod.sh -t"
 ```
 * * *
 
