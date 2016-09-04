@@ -51,6 +51,15 @@ Create a realm using the `!createrealm` command.
 
 * * *
 
+###For Launch With AutoLaunch :
+```
+killall screen
+killall tmux
+killall telegram-cli
+tmux new-session -s script "bash beyond.sh -t"
+```
+* * *
+
 # Support and development
 
 Check out this [tutorial by Telegram Geeks](http://telegram.me/HodTeam) for further assistance with setup and installation.
